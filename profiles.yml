@@ -1,0 +1,8 @@
+pix_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: data/pix.duckdb
+      schema: analytics
+      threads: 1

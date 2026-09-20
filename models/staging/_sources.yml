@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: pix
+    schema: raw
+    tables:
+      - name: estatisticas_transacoes_pix
